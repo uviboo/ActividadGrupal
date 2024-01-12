@@ -5,4 +5,25 @@ html {
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> 9dfd4795df7d3ed15b2bac8820ade5627a8d92ab
+=======
+body {
+  background-color: rgb(139, 137, 151);
+}
+
+h3 {
+  color:forestgreen
+ 
+ }
+ 
+ .azul {
+  color: blue;
+ 
+ }
+ 
+ .rojo {
+  color:red;
+ 
+ }
+>>>>>>> 94a981fba55d6ffa940304dde4d708a82622d20d
