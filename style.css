@@ -2,16 +2,22 @@ html {
   height: 100%;
   width: 100%;
 }
+
 body {
   background-color: rgb(139, 137, 151);
 }
-h3 {
-  color:forestgreen;
 
-}
-.azul {
+h3 {
+  color:forestgreen
+ 
+ }
+ 
+ .azul {
   color: blue;
-}
-.rojo {
-  color:red;
-}
+ 
+ }
+ 
+ #rojo {
+  color: red;
+ 
+ }
