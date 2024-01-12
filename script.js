@@ -22,22 +22,22 @@ function colorh5a() {
 
 
 
-// Cambiar color del fondo aleatoriamente
+// Cambiar color h1 aleatoriamente
 
-const bodyElement = document.getElementById('body-id');
+const h1Selector = document.getElementById('title');
 
 randomColors();
 
-setInterval(randomColors, 10000);
+setInterval(randomColors, 1000);
 
 function randomColors() {
     let numeroRandom = Math.floor(Math.random() * 3 ) + 1
 
     if (numeroRandom === 1) {
-        bodyElement.style.backgroundColor = 'green';
+        h1Selector.style.color = 'green';
     } else if (numeroRandom === 2) {
-        bodyElement.style.backgroundColor = 'blue';
+        h1Selector.style.color = 'blue';
     } else {
-        bodyElement.style.backgroundColor = 'red';
+        h1Selector.style.color = 'red';
     }
 }
